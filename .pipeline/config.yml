@@ -23,7 +23,7 @@ stages:
     cfSpace: "AfDB_S4_DEV"
     cfAppName: "testapp"
     cfCredentialsId: "deploy-to-cf"
-    tmsUpload: false
+    tmsUpload: true
 steps:
   artifactPrepareVersion:
     versioningType: "cloud_noTag"
